@@ -9,6 +9,7 @@
     --color-primary: #dfd8dbe1;
     --color-light: #b3daff;
     --color-black: #000000;
+    --color-white: #FFFFFF;
     --font-medium: 1.4rem;
     --font-large: 1.6rem;
 }
@@ -155,4 +156,21 @@ main-buttom{
     margin-bottom: 75px;
 }
 
-.blog-posts-container
+.blog-buttom:hover {
+    border: 1px solid var()
+}
+
+.blog-buttom {
+    border: 1px solid var(--color-light);
+    padding:10px 15px;
+    font-size: 12px;
+    background-color: var(--color-light);
+    color: var(--color-black)
+}
+
+.blog-buttom:hover{
+border: var(--color-white);
+color: var(var(--color-white));
+background-color: var(--color-black);
+
+}
