@@ -218,3 +218,13 @@ footer p{
 .aboutme{
     display: grid;
 }
+
+form{
+    padding: 10px;
+    font-family:'EB+Garamound';
+    background-color: var(--color-primary);
+}
+label{
+    font-weight: bold;
+
+}
